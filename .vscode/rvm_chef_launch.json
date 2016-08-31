@@ -1,0 +1,77 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "kitchen list",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/kitchen",
+            "args": ["list"],
+            "useBundler": true,
+            "pathToBundler": "/Users/ablythe/.rvm/gems/ruby-2.3.0/wrappers/bundle",
+            "showDebuggerOutput": true,
+            "pathToRDebugIDE": "${workspaceRoot}/bin/rdebug-ide"
+        },
+        {
+            "name": "kitchen converge",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/kitchen",
+            "args": ["converge"],
+            "useBundler": true,
+            "pathToBundler": "/Users/ablythe/.rvm/gems/ruby-2.3.0/wrappers/bundle",
+            "showDebuggerOutput": true,
+            "pathToRDebugIDE": "${workspaceRoot}/bin/rdebug-ide"
+        },
+        {
+            "name": "kitchen verify",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/kitchen",
+            "args": ["verify"],
+            "useBundler": true,
+            "pathToBundler": "/Users/ablythe/.rvm/gems/ruby-2.3.0/wrappers/bundle",
+            "showDebuggerOutput": true,
+            "pathToRDebugIDE": "${workspaceRoot}/bin/rdebug-ide"
+        },
+        {
+            "name": "kitchen login",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/kitchen",
+            "args": ["login"],
+            "useBundler": true,
+            "pathToBundler": "/Users/ablythe/.rvm/gems/ruby-2.3.0/wrappers/bundle",
+            "showDebuggerOutput": true,
+            "pathToRDebugIDE": "${workspaceRoot}/bin/rdebug-ide"
+        },
+        {
+            "name": "kitchen test",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/kitchen",
+            "args": ["test"],
+            "useBundler": true,
+            "pathToBundler": "/Users/ablythe/.rvm/gems/ruby-2.3.0/wrappers/bundle",
+            "showDebuggerOutput": true,
+            "pathToRDebugIDE": "${workspaceRoot}/bin/rdebug-ide"
+        },
+        {
+            "name": "kitchen destroy",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/kitchen",
+            "args": ["destroy"],
+            "useBundler": true,
+            "pathToBundler": "/Users/ablythe/.rvm/gems/ruby-2.3.0/wrappers/bundle",
+            "showDebuggerOutput": true,
+            "pathToRDebugIDE": "${workspaceRoot}/bin/rdebug-ide"
+        }
+    ]
+}
